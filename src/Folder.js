@@ -66,7 +66,7 @@ class Folder extends Component {
     return (
       <div className={itemStyle}
            style={{'margin-left': `${offset}px`}}
-           onClick={this.handleFocus}>
+           >
         <span className={lineStyle}>
           <span className={expansionStyle} onClick={this.handleExpansionClick}></span>
           <span className={folderStyle}></span>
