@@ -6,6 +6,21 @@ Your implementation will be evaluated technically, but also by a designer, so CS
 
 You can use any tools or libraries you'd like. Except an off-the-shelf tree control :)
 
+## Running the application
+
+First, pleaes fork and clone the repository onto your local machine
+
+Next, please all dependencies by navigating to the root folder of the repository and running: 
+```
+npm install
+```
+One all dependencies have been installed (may take a minute to install all React dependencies), please run:
+```
+npm start
+```
+The site should now be running at localhost:3000.
+
+
 ## Requirements
 
 ### Application
