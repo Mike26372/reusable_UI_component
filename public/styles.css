@@ -9,6 +9,7 @@ body, span, input, p, div {
 
 .ethos-card {
   border-radius: 6px;
+  border: 1px solid lightgrey;
   box-shadow: 10px 10px 40px 2px rgba(153,153,153,1);
   width: 400px;
   height: 800px;
@@ -36,8 +37,13 @@ body, span, input, p, div {
   height: 100%;
 }
 
-.file-style > * {
+.spacing > * {
   margin: 0 5px;
+}
+
+.focus-file {
+  color: white;
+  background-color: #3273dc;
 }
 
 /* Set sprite offsets and background image*/
