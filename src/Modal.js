@@ -10,7 +10,7 @@ class Modal extends Component {
         <div className=""></div>
         <div className="card modal-card ethos-card">
           <header className="modal-card-head">
-            <p className="modal-card-title has-text-left">Title</p>
+            <p className="modal-card-title has-text-left ethos-title">Title</p>
             <button className="delete"></button>
           </header>
           <section className="modal-card-head folder-label">
@@ -27,7 +27,7 @@ class Modal extends Component {
           </section>
           <footer className="modal-card-foot ethos-footer">
             <a className="button is-pulled-left ethos-link">Link</a>
-            <a className="button is-info is-pulled-right">Normal</a>
+            <a className="button is-info is-pulled-right">Done</a>
           </footer>
         </div>
       </div>
