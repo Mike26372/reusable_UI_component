@@ -1,5 +1,10 @@
 body, span, input, p, div {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.ethos-title {
+  font-size: 16px;
 }
 
 .ethos-card {
@@ -18,15 +23,17 @@ body, span, input, p, div {
 
 .ethos-link {
   border: 0;
+  color: #3273dc;
 }
 
 .folder-label {
   background-color: white;
-  padding: 10px 20px;
+  padding: 7px 20px;
 }
 
 .file-style {
-  padding: 10px 0;
+  padding: 7px 0;
+  height: 100%;
 }
 
 .file-style > * {
