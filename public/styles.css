@@ -1,0 +1,74 @@
+body, span, input, p, div {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ethos-card {
+  border-radius: 6px;
+  box-shadow: 10px 10px 40px 2px rgba(153,153,153,1);
+  width: 400px;
+  height: 800px;
+}
+
+.ethos-footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.ethos-link {
+  border: 0;
+}
+
+.folder-label {
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.file-style {
+  padding: 10px 0;
+}
+
+.file-style > * {
+  margin: 0 5px;
+}
+
+/* Set sprite offsets and background image*/
+.icon-sprite {
+  clear: both;
+  display: inline-block;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/ethos-ui.appspot.com/o/icon-sprite.png?alt=media&token=3b839ca0-4ea1-4d70-82f9-c2fc5edc5760');
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 14px;
+}
+
+.folder {
+  background-position: 0px 0px;
+}
+
+.list {
+  background-position: -28px 0px;
+}
+
+.plus {
+  background-position: -56px 0px;
+}
+
+.minus {
+  background-position: -70px 0px;
+}
+
+.private-folder {
+  background-position: -14px 0px;
+}
+
+.placeholder {
+  background-position: -200px 0px;
+}
+/************************************/
+
+#label-input {
+  border: none;
+  box-shadow: none;
+}
