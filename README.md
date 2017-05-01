@@ -14,7 +14,7 @@ Next, please all dependencies by navigating to the root folder of the repository
 ```
 npm install
 ```
-One all dependencies have been installed (may take a minute to install all React dependencies), please run:
+Once all dependencies have been installed (may take a minute to install all React dependencies), please run:
 ```
 npm start
 ```
